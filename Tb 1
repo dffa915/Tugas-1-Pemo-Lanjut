@@ -1,0 +1,18 @@
+# Bagian A: Cetak nilai i^2 dari 0 hingga n-1
+def print_square(n):
+    for i in range(n):
+        print(i**2)
+
+# Bagian B: Cetak nilai kuadrat dari bilangan ganjil dari 0 hingga n-1
+def print_odd_squares(n):
+    for i in range(n):
+        if i % 2 != 0:
+            print(i**2)
+
+# Contoh penggunaan untuk bagian A
+n = int(input("Masukkan nilai n: "))
+print_square(n)
+
+# Contoh penggunaan untuk bagian B
+print("Bagian B:")
+print_odd_squares(n)
